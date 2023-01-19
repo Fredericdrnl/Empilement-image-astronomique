@@ -54,26 +54,26 @@ en astrophotographie pour permettre d'obtenir l'optimisation d'une image prise �
 
 ### 2.1 Language de programmation ⚙️
  
-> #### 2.1.1 Quel language ? 🔠
+> #### 2.1.1 Quel language 
 
 Pour ce projet, nous avons utilisé **_Python_**. 
 
 <sub>Python : https://www.python.org/</sub>
 
-> #### 2.1.2 Avantages ✅
+> #### 2.1.2 Avantages 
 
 **_Python_** 
  - Dispose de nombreuses librairies pour le traitement d'image.
  - Facilite le développement de l'application par sa maniabilité.
  - Langage accessible pour de nombreux utilisateurs même neophytes.
  
-> #### 2.1.3 Inconvénients ❌
+> #### 2.1.3 Inconvénients 
  - Le programme est lent pour le traitement d'image.
  - Coût de ressources important (environ 70x supérieur aux autres languages)
 
-### 2.2 Librairies 📚
+### 2.2 Librairies 
 
-> #### 2.2.1 Astropy 🌌
+> #### 2.2.1 Astropy 
 
 **_Astropy_** est au coeur de notre projet, cette librairie permet d'ouvrir et d'utiliser les images avec l'extension "_.fits_".
 
@@ -83,7 +83,7 @@ pip install astropy
 
 <sub>Astrpy : https://www.astropy.org/</sub>
 
-> #### 2.2.2 PyQt 🪟
+> #### 2.2.2 PyQt 
 
 **_PyQt_** est une librarie qui permet de lier le langage Python avec la bibliothèque Qt.
 Celle-ci permet de créer des interfaces en proposant différents outils.
@@ -94,7 +94,7 @@ pip install pyQt5
 
 <sub>PyQt : https://doc.qt.io/qtforpython/ </sub>
 
-> #### 2.2.3 Matplotlib 📊
+> #### 2.2.3 Matplotlib 
 
 Nous avons utilisé **_Matplotlib_** pour afficher les images sur l'interface **_PyQt_** et créer les graphiques en lien avec l'image.
 Nous utilisons plus particulièrement **_Matplotlib.Pyplot_**.
@@ -181,7 +181,7 @@ Cette détection se base sur les valeurs au dessus ou en dessus puis sont rejet�
 
 Fonctionnalités qui n'étaient pas attendues mais que nous avons jugé pertinent d'ajouter.
 
-> #### 3.2.1 Detection des étoiles ⭐
+> #### 3.2.1 Detection des étoiles 
 
 La détection des corps célestes est possible dans notre application, en effet celle-ci est effectuée sur un laplace de gaussien (LoG) . 
 Le gaussien permet le lissage de l'image (réduction du bruit) et le laplacien est calculé sur une image noir et blanc (détection des "blobs").
@@ -214,7 +214,7 @@ Le Graphique est utilisé pour connaître le color Scaling de l'image, cela perm
 
 ## **4 Comment l'utiliser ❔**
 
-### 4.1 Lancer le programme ▶️
+### 4.1 Lancer le programme
 
 > #### 4.1.1 Avec le code 
 
