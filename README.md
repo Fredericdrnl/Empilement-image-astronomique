@@ -52,7 +52,7 @@ en astrophotographie pour permettre d'obtenir l'optimisation d'une image prise �
 
 ## **2 Les prérequis 🛠️**
 
-### 2.1 Language de programmation ⚙️
+### 2.1 Language de programmation
  
 > #### 2.1.1 Quel language 
 
