@@ -1,6 +1,6 @@
 # **Empilement d’images astronomiques 🪐**
 
-> Auteur : ELUECQUE Anthony & DOURNEL Frédéric
+> Auteurs : ELUECQUE Anthony & DOURNEL Frédéric
 
 # **Sommaire 📃**
 
